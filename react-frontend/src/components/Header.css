@@ -1,0 +1,93 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* niekedy je lepsie baseline */
+    padding: 0.5rem 2rem;
+    background-color: var(--color--background-black);
+    color: var(--text-color-secondary);
+    position: sticky;
+    min-height: 3.25rem;
+    top: 0;
+    left: 0;
+    box-shadow: black 1px 0 3px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-btn {
+    height: 70px;
+    width: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-btn img {
+    height: auto; /* Автоматическая высота изображения */
+    width: auto; /* Автоматическая ширина изображения */
+    object-fit: contain; /* Сохраняем пропорции изображения */
+}
+
+.profile-btn {
+    height: 40px;
+    width: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-btn img {
+    height: auto; /* Автоматическая высота изображения */
+    width: auto; /* Автоматическая ширина изображения */
+    object-fit: contain; /* Сохраняем пропорции изображения */
+}
+
+.nav-links{
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-links a {
+    color: var(--color--button-white-inactive);
+    opacity: 0.75;
+    background: var(--color--background-black); /* Background color */
+    background-color: var(--color--background-grey);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem; /* Padding for pill shape */
+    border-radius: 5px; /* Fully rounded corners */
+    transition: opacity 0.2s, background-color 0.2s; /* Smooth transition */
+}
+
+.nav-links a:hover {
+    opacity: 1;
+    color: var(--color--button-white-active);
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 0;
+}

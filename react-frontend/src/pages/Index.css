@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-size: var(--body-base);
+    font-family: var(--text-font), sans-serif;
+    font-optical-sizing: auto;
+    line-height: 100%;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, .title-hero {
+    font-family: var(--text-font), sans-serif
+}
+
+.title-hero {
+    font-size: var(--title-hero);
+    font-weight: bold;
+    margin: 0rem 0rem 3rem 0rem;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color--background-grey);
+    padding: 1rem; /* Adjust padding here */
+    gap: 1rem; /* Control spacing between elements */
+}
+
+h1, .title-page {
+    font-size: var(--title-page);
+    font-weight: bold;
+    letter-spacing: -0.06rem;
+    color: white;
+}
+
+.subtitle {
+    font-size: var(--subtitle);
+    font-weight: bold;
+    color: var(--text-color-secondary);
+}
+
+.blog-title {
+    font-size: var(--subtitle);
+    font-weight: bold;
+    color: var(--text-color-primary);
+    padding: 0rem 0rem 0rem 10rem;
+}
+
+h3, .heading {
+    font-size: var(--heading); font-weight: bold;
+}
+
+h4, .subheading {
+    font-size: var(--subheading); font-weight: normal;
+}
+
+h5 {
+    font-size: var(--body-base); font-weight: bold
+}
+
+.hero-section {
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color--background-grey);
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    padding: 2rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** STYLING REACT-ARIA COMPONENTS **/
+
+.react-aria-Button { /* prebrate z prikladu na webe react-aria */
+    font-weight: bold;
+    max-height: 2.5rem;
+    flex-shrink: 1;
+    max-width: auto;
+    padding: 0.75rem 2rem;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color--primary-white);
+    text-decoration: none;
+    background: transparent;
+    opacity: 0.8;
+    transition: opacity 0.2s, background-color 0.3s;
+    background-color: white;
+}
+
+.react-aria-Button[data-pressed ] {
+    color: white;
+    background-color: var(--color--background-grey);
+}
+
+.react-aria-Button[data-focus-visible], .react-aria-Button[data-hovered] {
+    border: none;
+    outline-offset: 0px;
+    color: var(--color--primary-white);
+    opacity: 1;
+}
+
+
+.Index {
+    display: flex;
+    flex-direction: column;
+}

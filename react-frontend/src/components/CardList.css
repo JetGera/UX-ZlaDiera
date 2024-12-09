@@ -1,0 +1,41 @@
+.CardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* Space between cards */
+    max-width: 1200px; /* Limit container width */
+    margin: 0 auto; /* Center the grid */
+    padding: 1rem; /* Padding around the grid */
+    color: var(--text-color-primary);
+    box-sizing: border-box; /* Ensure padding affects layout properly */
+}
+
+/* Responsive adjustments for very narrow screens */
+@media (max-width: 1150px) {
+    .CardList {
+        grid-template-columns: repeat(2, 1fr); /* Single column layout for very small screens */
+        gap: 1rem; /* Reduce gap to fit smaller screens */
+    }
+}
+
+/* Responsive adjustments for very narrow screens */
+@media (max-width: 775px) {
+    .CardList {
+        grid-template-columns: 1fr; /* Single column layout for very small screens */
+        gap: 1rem; /* Reduce gap to fit smaller screens */
+    }
+}
+
+.Card {
+    background-color: var(--color--background-black); /* Card background */
+    border: 2px solid #444444; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Space inside the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover animation */
+}
+
+/* Hover effect for interactivity */
+.Card:hover {
+    transform: translateY(-5px); /* Slight upward movement */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+}

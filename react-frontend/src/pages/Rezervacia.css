@@ -1,0 +1,65 @@
+.section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--color--background-grey);
+}
+
+.react-aria-Calendar {
+    width: fit-content;
+    max-width: 100%;
+    color: var(--text-color-secondary);
+
+    header {
+        display: flex;
+        align-items: center;
+        margin: 0 4px .5rem 4px;
+
+        .react-aria-Heading {
+            flex: 1;
+            margin: 0;
+            text-align: center;
+            font-size: 1.375rem;
+        }
+    }
+
+    .react-aria-Button {
+        width: 2rem;
+        height: 2rem;
+        padding: 0;
+    }
+
+    .react-aria-Button:hover {
+        color: var(--text-color-primary);
+    }
+
+    .react-aria-CalendarCell {
+        width: 2rem;
+        line-height: 2rem;
+        text-align: center;
+        border-radius: 6px;
+        cursor: default;
+        outline: none;
+        margin: 1px;
+        forced-color-adjust: none;
+
+        &[data-outside-month] {
+            display: none;
+        }
+
+        &[data-pressed] {
+            background: var(--color--background-black);
+        }
+
+        &[data-focus-visible] {
+            outline: 2px solid var(--color--background-black);
+            outline-offset: 2px;
+        }
+
+        &[data-selected] {
+            background: var(--color--background-black);
+            color: var(--text-color-primary);
+        }
+    }
+}

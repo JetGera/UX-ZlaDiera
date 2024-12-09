@@ -1,0 +1,115 @@
+.Card {
+    align-items: flex-start;
+    display: flex;
+    max-width: 20rem;
+    width: 100%;
+    background-color: var(--color--background-grey);
+    border: 1px solid #d9d9d9;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+
+.Card .image {
+    display: flex;
+    flex-direction: column;
+}
+
+.Card .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Card .body {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 160px;
+}
+
+.Card .text {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.Card .title {
+    align-self: stretch;
+    color: #1e1e1e;
+    margin-top: -1.00px;
+}
+
+.Card .body-text-for {
+    align-self: stretch;
+    color: #757575;
+}
+
+.Card .button-group {
+    all: unset;
+    align-items: center;
+    align-self: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.Card .button {
+    all: unset;
+    align-items: center;
+    background-color: #e3e3e3;
+    border: 1px solid #767676;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 12px;
+    position: relative;
+}
+
+.Card .text-wrapper {
+    color: #1e1e1e;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.Card.vertical {
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Card.stroke {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.Card.horizontal {
+    flex-wrap: wrap;
+    gap: 24px 24px;
+}
+
+.Card.vertical .body {
+    align-self: stretch;
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.Card.horizontal .body {
+    flex: 1;
+}

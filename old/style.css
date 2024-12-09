@@ -29,6 +29,8 @@
 --color--blue: #687DB3;
 --color--blue-dark: #1F4059;
 
+
+--text-font: 'Inter', sans-serif;
 --text-color: var(--color--primary-black);
 --text-color-secondary: #BFBFBF;
 --title-hero: 4.5rem;
@@ -85,12 +87,16 @@ body, html {
 
 .nav-links a {
     color: var(--color--primary-white);
+    background: var(--color--black-background); /* Background color */
     text-decoration: none;
     font-size: 1rem;
+    font-weight: bold;
     opacity: 0.8;
-    transition: opacity 0.2s;
-
+    padding: 0.5rem 0.5rem; /* Padding for pill shape */
+    border-radius: 5px; /* Fully rounded corners */
+    transition: opacity 0.2s, background-color 0.2s; /* Smooth transition */
 }
+
 
 .nav-links a:hover {
     opacity: 1;
