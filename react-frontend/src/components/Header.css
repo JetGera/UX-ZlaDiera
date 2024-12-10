@@ -40,25 +40,30 @@ button {
 }
 
 .profile-btn {
+    opacity: 1;
     height: 40px;
     width: auto;
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
+
     display: flex;
+    /*display: none;*/
+
     justify-content: center;
     align-items: center;
 }
 
 .profile-btn img {
-    height: auto; /* Автоматическая высота изображения */
+    height: 40px; /* Автоматическая высота изображения */
     width: auto; /* Автоматическая ширина изображения */
     object-fit: contain; /* Сохраняем пропорции изображения */
 }
 
-.nav-links{
-
+.menu-links{
+    display: flex;
+    gap: 3rem;
 }
 
 .nav-links {
@@ -81,13 +86,13 @@ button {
 }
 
 .nav-links a:hover {
+    background-color: transparent;
     opacity: 1;
     color: var(--color--button-white-active);
 }
 
 .profile-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+
+    border-radius: 100%;
     margin-left: 0;
 }

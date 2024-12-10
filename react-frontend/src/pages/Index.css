@@ -34,7 +34,7 @@ h1, .title-page {
     color: white;
 }
 
-.subtitle {
+.welcomeText {
     font-size: var(--subtitle);
     font-weight: bold;
     color: var(--text-color-secondary);
@@ -70,6 +70,7 @@ h5 {
 
 .section{
     display: flex;
+    background-color: var(--color--background-black);
     flex-direction: column;
     min-height: 20rem;
     padding: 2rem 1rem;
@@ -88,6 +89,10 @@ h5 {
 
 
 /** STYLING REACT-ARIA COMPONENTS **/
+
+.navlinkChange{
+    color: var(--color--background-black);
+}
 
 .react-aria-Button { /* prebrate z prikladu na webe react-aria */
     font-weight: bold;
