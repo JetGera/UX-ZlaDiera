@@ -42,7 +42,7 @@ export const Card = ({
             )}
 
             { assetType === "image" && (
-                <div className="image"><img src={image} alt="card image"></img></div>
+                <div className="image"><img src={image} alt="card"></img></div>
             )}
 
             <div className="body">

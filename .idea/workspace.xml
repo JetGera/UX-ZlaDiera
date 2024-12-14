@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90960bf-3c41-4033-81bb-90b291cac009" name="Changes" comment="Cvicenie 12 - Router (Pridana rezervacia a platba)">
+    <list default="true" id="c90960bf-3c41-4033-81bb-90b291cac009" name="Changes" comment="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package-lockasdas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Checkout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Payment-error.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Payment-error.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Payment-success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Payment-success.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Rezervacia.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Rezervacia.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Rezervacia.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Rezervacia.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/scrollbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +180,7 @@
       <workItem from="1734018888553" duration="13927000" />
       <workItem from="1734090648402" duration="18764000" />
       <workItem from="1734137091125" duration="2339000" />
-      <workItem from="1734179074257" duration="2292000" />
+      <workItem from="1734179074257" duration="3434000" />
     </task>
     <task id="LOCAL-00001" summary="Cvicenie 10 - HTML a CSS">
       <option name="closed" value="true" />
@@ -230,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733872922239</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)">
+      <option name="closed" value="true" />
+      <created>1734181598134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734181598134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +243,7 @@
     <MESSAGE value="Cvicenie 10 - HTML a CSS" />
     <MESSAGE value="Cvicenie 11 - React (Hlavna stranka a kalendar)" />
     <MESSAGE value="Cvicenie 12 - Router (Pridana rezervacia a platba)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cvicenie 12 - Router (Pridana rezervacia a platba)" />
+    <MESSAGE value="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)" />
   </component>
 </project>
