@@ -1,4 +1,4 @@
-::-webkit-scrollbar { width: 0.75rem; background: transparent;}
-::-webkit-scrollbar-thumb { background: rgba(196, 196, 196, 0.25); border-radius: 0.25rem; }
+::-webkit-scrollbar { width: 0.5rem; background: transparent;}
+::-webkit-scrollbar-thumb { background: rgba(196, 196, 196, 0.5); border-radius: 1rem; }
 ::-webkit-scrollbar-thumb:hover { background: #6f6f6f; }
 ::-webkit-scrollbar-track { width: 0; background: transparent; }

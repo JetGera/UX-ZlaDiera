@@ -1,0 +1,422 @@
+.container {
+    margin: 0 auto;
+}
+
+.content {
+    background: transparent;
+    overflow: hidden;
+    display: grid;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.odhlasit_sa {
+    margin: 1rem 1rem 0 0;
+    background-color: var(--color--red-light);
+    width: fit-content;
+    font-weight: bold;
+}
+
+.odhlasit_sa-icon{
+    transform: translateX(-3px) translateY(1.5px);
+}
+
+.toRight{
+    justify-self: right;
+}
+
+.odhlasit_sa:hover {
+    transition: 0.3s background-color;
+    background-color: #ff8585;
+}
+
+.odhlasit_sa:focus {
+    outline: none;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+}
+
+.layout {
+    max-width: 1200px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 240px 1fr; /* Default layout */
+    height: 70vh; /* Occupies one screen */
+    overflow: hidden; /* Prevents scroll on the main layout */
+    padding: 1rem 2rem 0 2rem;
+    justify-self: center;
+}
+.sidebar {
+    background: transparent;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sidebarButton, .sidebarButtonActive{
+    height: 50px;
+    font-weight: bold;
+}
+
+
+.sidebarButtonActive {
+    background: var(--color--cyan-light);
+    color: black;
+}
+
+.mainContent {
+    overflow-y: auto; /* Makes main content scrollable */
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    max-height: calc(100vh - 4rem);
+}
+
+@media (max-width: 700px) {
+    .layout {
+        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-rows: auto 1fr; /* Sidebar moves on top */
+        height: auto; /* Allows height to adjust */
+    }
+
+    .sidebar {
+        grid-column: span 2; /* Spans across the top */
+        display: flex;
+        flex-direction: row; /* Horizontal layout for menu */
+        gap: 0.25rem; /* Adjust gap for smaller space */
+        overflow-x: auto; /* Allows scrolling for menus if too many */
+        flex-wrap: wrap;
+    }
+
+    .mainContent {
+        grid-column: span 2;
+        margin-top: 1rem; /* Adds some spacing from the menu */
+        height: calc(100vh - 4rem); /* Calculates space for main content */
+    }
+
+}
+
+/* Further adjustments for very small devices (like phones) */
+@media (max-width: 480px) {
+
+
+    .sidebar {
+        padding: 0.5rem; /* Smaller padding */
+    }
+
+
+    .mainContent {
+        padding: 1rem; /* Adjust padding for smaller screens */
+        max-height: calc(100vh - 24rem);
+    }
+
+    .reservation-button {
+        padding: 0.75rem; /* Adjusts button padding for smaller screens */
+        height: auto; /* Allows buttons to resize based on content */
+    }
+
+    .reservation-info {
+        flex-direction: column; /* Stacks content vertically */
+        align-items: flex-start; /* Aligns text to the left */
+        gap: 0.25rem; /* Adds spacing between items */
+    }
+
+    .reservationDate, .reservationStatus, .reservationPrice {
+        font-size: 1rem; /* Adjusts text size for readability */
+    }
+}
+
+.reservation-history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reservation-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.rezervacia-viac{
+    color: var(--color--button-active);
+}
+
+.reserved {
+    background-color: var(--color--red-light);
+
+}
+p{
+    margin: 0;
+    font-size: 1rem;
+    color: grey;
+}
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.infoRow {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--color--grey-light);
+    height: 1.5rem;
+}
+
+.infoLabel {
+    width: 120px;
+    font-weight: 500;
+    color: #374151;
+}
+
+.changeButton {
+    margin-left: auto;
+    color: #2563eb;
+    background: transparent;
+    font-size: 0.875rem;
+}
+
+.editorStatus {
+    padding: 2rem;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.editorCodeInput {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.editorCodeInput input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+}
+
+.reservationDetails{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.reservationCardReserved,
+.reservationCardCancelled,
+.reservationCardCompleted,
+.reservationCardPending{
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.reservationCardReserved {
+    background-color: var(--color--cyan-light);
+}
+
+.reservationCardCancelled {
+    background-color: var(--color--red-light)
+}
+
+.reservationCardCompleted {
+    background-color: var(--color--green-light)
+}
+
+.reservationCardPending {
+    background-color: var(--color--blue-light)
+}
+
+.reservationHeader {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.reservationDate {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: rgba(0,0,0, 0.75);
+    margin-bottom: 0.5rem;
+}
+
+.reservationStatus {
+    color: rgba(0,0,0, 0.45);
+    font-weight: bold;
+    justify-self: center;
+}
+
+.reservationPrice {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(0,0,0,0.75);
+    justify-self: right;
+}
+
+.reservationTeam ul,
+.reservationTeam{
+    display: grid;
+    flex-direction: column;
+}
+
+.reservationDetails h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.75);
+}
+
+.additionalDisplay{
+    padding: 1rem 0;
+    transform: translateX(-3rem);
+}
+
+.reservationTeam h3 {
+    font-weight: bold;
+    margin: 0;
+    color: rgba(0,0,0,0.75);
+}
+
+.reservationDetails ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.reservationTeam li {
+    color: rgba(0,0,0,0.75);
+    padding-bottom: 0.5rem;
+}
+
+.reservationInfo{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: bolder;
+}
+
+.reservationPriceAndReason{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.statusReason{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 9px;
+    background-color: white;
+    outline: none;
+    height: fit-content;
+    white-space: pre-wrap;
+}
+
+/* Button styles */
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
+    transition: all 0.2s;
+    background-color: var(--color--grey-light);
+    outline: none;
+}
+
+
+
+@media (max-width: 700px) {
+    button {
+        height: auto;
+    }
+}
+
+.odhlasit_sa {
+    height: auto;
+}
+
+.reservationCardStatus{
+
+}
+
+
+/* General button styles */
+.reservation-button {
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 1rem;
+    height: 6rem;
+    outline: 0.25rem solid rgba(0,0,0, 0.04);
+    outline-offset: -0.25rem;
+}
+
+.reservation-button:hover {
+    transition: opacity 0.2s;
+    opacity: 0.75;
+}
+
+/* Status-specific styles */
+.reservation-button[data-status="reserved"] {
+    background-color: var(--color--cyan-light);
+}
+
+.reservation-button[data-status="cancelled"] {
+    background-color: var(--color--red-light);
+}
+
+.reservation-button[data-status="completed"] {
+    background-color: var(--color--green-light);
+}
+
+.reservation-button[data-status="pending_payment"] {
+    background-color: var(--color--blue-light)
+}
+
+.reservation-button[data-status="default"] {
+    background-color: white;
+}
+
+.onBack{
+    background-color: white;
+}
+
+.onChangeDate{
+    background-color: var(--color--yellow-light);
+
+}
+
+.onCancel{
+    background-color: var(--color--red-light);
+
+}
+
+.onProceedPayment{
+    background-color: var(--color--blue);
+
+}
+
+.onDownload{
+    background-color: white;
+}
+

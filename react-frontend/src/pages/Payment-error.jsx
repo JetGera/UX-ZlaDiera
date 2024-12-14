@@ -21,8 +21,12 @@ const PaymentError = () => {
                     <NavLink to="/" className="result-button">
                         Prejsť na hlavnú stránku
                     </NavLink>
-                    
-                    <NavLink to="/rezervacia" className="result-button">
+
+                    <NavLink to="/checkout" className="result-button">
+                        Zaplatiť znova
+                    </NavLink>
+
+                    <NavLink to="/profile-history" className="result-button">
                         Zobraziť rezerváciu
                     </NavLink>
                 </div>

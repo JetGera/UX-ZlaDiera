@@ -81,7 +81,7 @@ const CheckoutPage = () => {
                 <div className="payment-form">
                     <h2>Zadajte údaje platobnej karty</h2>
                     <form onSubmit={handleSubmit}>
-                        <div className="form-group">
+                        <div className="form-group-checkout">
                             <label htmlFor="cardNumber">Card number</label>
                             <input
                                 type="text"
@@ -93,7 +93,7 @@ const CheckoutPage = () => {
                         </div>
 
                         <div className="form-row">
-                            <div className="form-group">
+                            <div className="form-group-checkout">
                                 <label htmlFor="expiryMonth">Expiration date</label>
                                 <div className="expiry-inputs">
                                     <input
@@ -115,10 +115,10 @@ const CheckoutPage = () => {
                                 </div>
                             </div>
 
-                            <div className="form-group">
+                            <div className="form-group-checkout">
                                 <label htmlFor="cvv">
                                     CVV/CVD
-                                    <span className="info-icon">?</span>
+                                    {/*<span className="info-icon">?</span>*/}
                                 </label>
                                 <input
                                     type="text"
@@ -138,10 +138,11 @@ const CheckoutPage = () => {
                                 onChange={(e) => setSecure3d(e.target.checked)}
                             />
                             <label htmlFor="secure3d">
-                                Enable 3D Secure
+                                Uložiť udaje pre budúce platby
                                 <span className="info-icon">?</span>
                             </label>
                         </div>
+
 
                         <div className="card-logos">
                             <img src="/placeholder.svg?height=30&width=40" alt="American Express" />

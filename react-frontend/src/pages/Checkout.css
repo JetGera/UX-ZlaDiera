@@ -1,8 +1,8 @@
 .checkout-page {
-    min-height: 100vh;
-    background-color: #2a2a2a;
+    min-height: auto;
+    background-color: var(--color--background-grey);
     color: white;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .checkout-page h1 {
@@ -68,15 +68,15 @@
 
 .payment-form {
     background: #3a3a3a;
-    padding: 2rem;
+    padding: 2rem 5rem 3rem 3rem;
     border-radius: 0.5rem;
 }
 
-.form-group {
+.form-group-checkout {
     margin-bottom: 1.5rem;
 }
 
-.form-group label {
+.form-group-checkout label {
     display: block;
     margin-bottom: 0.5rem;
     color: #999;
@@ -85,13 +85,13 @@
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .expiry-inputs {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    gap: 2rem;
 }
 
 input[type="text"] {
@@ -125,7 +125,7 @@ input[type="text"]:focus {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .secure-checkbox input[type="checkbox"] {
@@ -137,7 +137,7 @@ input[type="text"]:focus {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
 }
 
 .card-logos img {
@@ -147,7 +147,7 @@ input[type="text"]:focus {
 }
 
 .pay-button {
-    width: 100%;
+    width: 103%;
     padding: 1rem;
     background: #3b82f6;
     color: white;
@@ -170,11 +170,13 @@ input[type="text"]:focus {
 
 @media (max-width: 640px) {
     .checkout-page {
-        padding: 1rem;
+        padding: 3rem;
     }
 
     .form-row {
         grid-template-columns: 1fr;
+        gap: 0;
+
     }
 
     .card-logos {

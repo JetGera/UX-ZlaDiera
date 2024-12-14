@@ -61,8 +61,13 @@ const RezervaciaPage = () => {
     }
 
     const isProceedEnabled = () => {
-        return calculateTotal() > 0 && selectedDate && selectedTime
-    }
+        return (
+            calculateTotal() > 0 &&
+            selectedDate &&
+            selectedTime &&
+            ticketGroups.some(group => group.count > 0) // Ensure at least one group has count > 0
+        );
+    };
 
     const handleProceed = () => {
         const reservationData = {

@@ -1,0 +1,123 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background-color: var(--color--background-black);
+  border-radius: 8px;
+  padding: 2rem;
+  width: 60%;
+  max-width: 700px;
+  position: relative;
+}
+
+.overlay-title {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: var(--heading);
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.form-group-overlay, .form-group-overlay-text-field {
+  margin-bottom: 1.5rem;
+  width: 97%;
+}
+
+.form-group-overlay label, .form-group-overlay-text-field label {
+  display: block;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.form-group-overlay input,
+.form-group-overlay textarea,
+.form-group-overlay-text-field input,
+.form-group-overlay-text-field textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--color--border-color);
+  border-radius: 4px;
+  background-color: var(--color--background-grey);
+  color: white;
+}
+
+.form-group-overlay textarea,
+.form-group-overlay-text-field textarea {
+  min-height: 50px;
+  resize: vertical;
+}
+
+.form-group-overlay-text-field{
+  margin-bottom: 6rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 325px) {
+  .form-actions{
+    flex-direction: column;
+  }
+  .submit-adding-card-button{
+    width: 100%;
+  }
+}
+
+.file-button,
+.submit-adding-card-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.file-button {
+  background-color: transparent;
+  border: 1px solid var(--color--border-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-height: 3rem;
+}
+
+.submit-adding-card-button {
+  background-color: white;
+  border: none;
+  color: var(--color--background-black);
+  margin-left: auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+

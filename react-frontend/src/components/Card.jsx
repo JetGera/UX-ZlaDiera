@@ -20,9 +20,23 @@ export const Card = ({
                          className = "",
                          icon = <Info aria="info" size="M"/>,
                          image = Plchldr,
+                         isEditMode = false,
+                         onEdit,
+                         onDelete,
                      }) => {
     return (
         <div className={`Card ${direction} ${variant} ${className}`}>
+            {isEditMode && (
+                <div className="card-controls">
+                    <button onClick={onEdit} className="edit-button">
+                        Edit
+                    </button>
+                    <button onClick={onDelete} className="delete-button">
+                        Delete
+                    </button>
+                </div>
+            )}
+
             { assetType === "icon" && (
                 <>{asset && icon}</>
             )}
@@ -59,4 +73,7 @@ Card.propTypes = {
     direction: PropTypes.oneOf(["vertical", "horizontal"]),
     icon: PropTypes.element,
     image: PropTypes.any,
+    isEditMode: PropTypes.bool,
+    onEdit: PropTypes.func,
+    onDelete: PropTypes.func,
 };

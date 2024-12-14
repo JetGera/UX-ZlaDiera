@@ -34,7 +34,7 @@ const PaymentSuccess = () => {
                         Stiahnut' podtvrdenku
                     </button>
                     
-                    <NavLink to="/rezervacia" className="result-button">
+                    <NavLink to="/profile-history" className="result-button">
                         Zobraziť rezerváciu
                     </NavLink>
                 </div>

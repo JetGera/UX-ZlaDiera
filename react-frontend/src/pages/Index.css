@@ -4,6 +4,7 @@ body {
     font-family: var(--text-font), sans-serif;
     font-optical-sizing: auto;
     line-height: 100%;
+    line-height: 140%;
 }
 
 /* TYPOGRAPHY */
@@ -40,11 +41,20 @@ h1, .title-page {
     color: var(--text-color-secondary);
 }
 
+@media (max-width: 500px){
+    .welcomeText{
+        font-size: 7.2vw
+    }
+    .title-hero{
+        font-size: 11.5vw
+    }
+}
+
 .blog-title {
     font-size: var(--subtitle);
     font-weight: bold;
     color: var(--text-color-primary);
-    padding: 0rem 0rem 0rem 10rem;
+    padding: 0rem 0rem 0rem 15vw;
 }
 
 h3, .heading {
@@ -130,4 +140,23 @@ h5 {
 .Index {
     display: flex;
     flex-direction: column;
+}
+
+.edit-mode-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    color: #1E1E1E;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.edit-mode-toggle:hover {
+    background-color: #F0F0F0;
 }
