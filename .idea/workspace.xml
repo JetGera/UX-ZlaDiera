@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c90960bf-3c41-4033-81bb-90b291cac009" name="Changes" comment="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package-lockasdas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/pages/Checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/pages/Checkout.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;project_67461_bot_409fd2b337c39b301b30dc8c19f5b751&quot;,
+      &quot;fullname&quot;: &quot;boba&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://git.kpi.fei.tuke.sk/maksym.streltsov/ux-zla-diera.git&quot;,
+    &quot;second&quot;: &quot;05f3aaec-e738-467d-9af1-84a1a5ee243b&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/react-frontend/src/pages/Index.css" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pNmgIqvn0tCgxnk0fINBDidk2w" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.renders learn react link.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Coding/UX/ux-zla-diera&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Coding/UX/ux-zla-diera/react-frontend/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend\src\assets" />
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend\src" />
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend\src\pages" />
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend\src\components" />
+      <recent name="C:\Coding\UX\web\png" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend\src\components" />
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend\src\pages" />
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend" />
+      <recent name="C:\Coding\UX\ux-zla-diera\react-frontend\src" />
+      <recent name="C:\Coding\UX\web\old" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/react-frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/react-frontend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-frontend/src/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/old/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="web" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Jest.renders learn react link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c90960bf-3c41-4033-81bb-90b291cac009" name="Changes" comment="" />
+      <created>1732615016206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732615016206</updated>
+      <workItem from="1732615017240" duration="1713000" />
+      <workItem from="1732821834107" duration="1693000" />
+      <workItem from="1732975857812" duration="348000" />
+      <workItem from="1732977172908" duration="5843000" />
+      <workItem from="1733062302600" duration="29000" />
+      <workItem from="1733063384722" duration="8312000" />
+      <workItem from="1733095823401" duration="3459000" />
+      <workItem from="1733156424531" duration="2603000" />
+      <workItem from="1733159068501" duration="922000" />
+      <workItem from="1733173598477" duration="48000" />
+      <workItem from="1733220028024" duration="2674000" />
+      <workItem from="1733223989756" duration="302000" />
+      <workItem from="1733415281761" duration="15000" />
+      <workItem from="1733415512332" duration="1555000" />
+      <workItem from="1733522387324" duration="1247000" />
+      <workItem from="1733580010059" duration="3439000" />
+      <workItem from="1733592537358" duration="7856000" />
+      <workItem from="1733611051017" duration="2701000" />
+      <workItem from="1733656302241" duration="20869000" />
+      <workItem from="1733787195243" duration="373000" />
+      <workItem from="1733842765295" duration="13920000" />
+      <workItem from="1733944239559" duration="11996000" />
+      <workItem from="1734018888553" duration="13927000" />
+      <workItem from="1734090648402" duration="18764000" />
+      <workItem from="1734137091125" duration="2339000" />
+      <workItem from="1734179074257" duration="3434000" />
+    </task>
+    <task id="LOCAL-00001" summary="Cvicenie 10 - HTML a CSS">
+      <option name="closed" value="true" />
+      <created>1733158919112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733158919112</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cvicenie 10 - HTML a CSS">
+      <option name="closed" value="true" />
+      <created>1733159796953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733159796953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cvicenie 11 - React (Hlavna stranka a kalendar)">
+      <option name="closed" value="true" />
+      <created>1733787535622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733787535622</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cvicenie 12 - Router (Pridana rezervacia a platba)">
+      <option name="closed" value="true" />
+      <created>1733872922239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733872922239</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)">
+      <option name="closed" value="true" />
+      <created>1734181598134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734181598134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cvicenie 10 - HTML a CSS" />
+    <MESSAGE value="Cvicenie 11 - React (Hlavna stranka a kalendar)" />
+    <MESSAGE value="Cvicenie 12 - Router (Pridana rezervacia a platba)" />
+    <MESSAGE value="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cvicenie 13 - Odovzdavka 3 (Hotovy React Prototyp)" />
+  </component>
+</project>
