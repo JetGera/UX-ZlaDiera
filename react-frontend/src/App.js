@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Index from "./pages/Index";
 import RezervaciaPage from "./pages/Rezervacia";
 import Header from "./components/Header";
