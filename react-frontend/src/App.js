@@ -33,7 +33,6 @@ function App() {
                     <Route path="/price-list" element={<PriceList />} />
                     <Route path="/fotogalery" element={<Fotogalery />} />
                 </Routes>
-                <Index/>
                 <ConditionalFooter />
             </div>
         </Router>
